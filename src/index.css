@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    padding: 10px 36px;
+    height: 70px;
+    display: flex;
+    box-shadow: 0px 3px 7px 0px #0000001A;
+
+}
+
+.nav--log {
+    /*width: 80px;*/
+    max-width: 200px;
+    height: auto;
+    aspect-ratio: 2/1;
+}
+
+.Hero--image {
+    width: 395px;
+    height: 232px;
+    top: 96px;
+    left: 77px;
+    border-radius: 9px;
+
+    /*display: flex;*/
+
+
+}
+
+.Hero--h1 {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 36px;
+
+}
+
+.Hero--div {
+    text-align: center;
+    padding-top: 90px;
+}
+
+.Hero--p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 36px;
+
+
+}
+.card {
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+
+
+.Card-p {
+    padding-left: 36px;
+    color: #222222;
+}
+
+.Card-p1 {
+    padding-left: 36px;
+    color: #222222;
+}
+
+.Card-p2 {
+    padding-left: 36px;
+    color: #222222;
+
+}
+
+.Card-p--1 {
+
+    width: 14px;
+    height: 14px;
+    top: 765px;
+    /*left: 36px;*/
+
+
+}
+
+.Card-p--2 {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.Card-p--3 {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.Card--image {
+    width: 176px;
+    height: 235px;
+    top: 521px;
+    left: 37px;
+    border-radius: 9px;
+
+}
+
+.Card-p2-span {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+.Card--div {
+    padding-left: 36px;
+    padding-top: 36px;
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
+    position: relative;
+
+
+
+
+}
+.card--badge {
+    position: absolute;
+    background-color: black;
+    /*padding-left: 6px;*/
+    /*padding-top: 1px;*/
+    top: 45px;
+    left: 45px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+    align-content: center;
+}
+
+
+
